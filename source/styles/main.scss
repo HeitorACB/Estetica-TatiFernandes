@@ -1,0 +1,292 @@
+@use 'section';
+@use 'whatsCSS';
+@use 'header';
+@use 'buttons';
+
+@media screen and (max-width:767px){
+    header img {
+        max-width: 180px;
+        width: 180px;
+        max-height: 80px;
+        height: 80px;
+    
+    }
+
+        header nav {
+            margin-top: 10px;
+        }
+        
+        .nav-pills li {
+            display: inline-block;
+            padding-right: 1px;
+        }
+
+
+        .nav-item a {
+            font-size: 7px;
+        }
+        
+        .whatsapp-link {
+            display: none;
+            
+        }
+
+        //sections
+
+
+
+        .col-md-6 h2 {
+            font-family: 'Pacifico', cursive;
+            color: rgb(62, 62, 63);
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        #bem-vindo .mobile{
+            max-width: 40%;
+        }
+
+        #bem-vindo .nosso-lar{
+            max-width: 60%;
+        }
+
+        #bem-vindo .col-md-6 p{
+
+            font-family: 'Shantell Sans', cursive;
+            font-size: 10px;
+            color: rgb(105, 104, 108);
+            padding-bottom: 10px;
+        }
+        
+        section img {
+            max-width: 140px;
+            max-height: 140px;
+        }
+        
+
+        
+        section .nosso-lar{
+            margin-top: 10px;
+        }
+        #bem-vindo{
+            background-color: rgb(204, 176, 213);
+        }
+
+    .button {
+    display: block;
+    padding: 2px;
+    margin-bottom: 12px;
+    color: #393838;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2px;
+    border-radius: 100px;
+    background-color: rgba(36, 185, 180, 0.747);
+    &:hover {
+        background-color: rgba(14, 223, 216, 0.747);
+        color: black;
+    }
+    }
+
+
+    .ytb-video{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 6px;
+    }
+    
+
+    section a {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+    #nossa-filosofia{
+        background-color: rgb(227, 208, 233);
+        padding-top: 20px;
+    }
+    
+    #nossa-filosofia iframe {
+        height: 220px;
+        border-radius: 30px;
+    
+    }
+
+    #nossa-filosofia p{
+        font-family:  sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgb(29, 29, 29);
+        margin-top: 10px
+    }
+    #nossa-filosofia h1{
+        font-family: 'Alkatra', cursive;
+        font-style: italic;
+        color: rgb(58, 58, 60);
+        background-color: rgba(19, 199, 193, 0);
+        border-radius: 200px;
+        margin-left: 80px;
+        font-size: 18px;
+        text-decoration: underline 1px;
+        margin-right: 80px;
+        
+    }
+    
+    #nossa-filosofia .imagens-nossa-filosofia .col-md-3{
+        display: flex;
+        
+    }
+    #nossa-filosofia .imagens-nossa-filosofia .col-md-3 img {
+        margin-right: 5px;
+        margin-top: 15px;
+        border-radius: 12px;
+        margin-bottom: 1000px;
+    }
+    
+
+    }
+    @media screen and (max-width:767px){
+        .nav-pills li {
+            display: inline-block;
+            padding-right: 1px;
+        }
+
+
+        .nav-item a {
+            font-size: 6px;
+        }
+        #nossa-filosofia .none{
+            display: none;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px){
+
+        header img {
+            max-width: 260px;
+            width: 260px;
+            max-height: 110px;
+            height: 110px;
+        
+        }
+    
+            header nav {
+                margin-top: 10px;
+            }
+            
+            .nav-pills li {
+                display: inline-block;
+                padding-right: 1px;
+            }
+    
+    
+            .nav-item a {
+                font-size: 16px;
+            }
+            
+            .whatsapp-link {
+                display: none;
+                
+            }
+
+
+            .col-md-6 h2 {
+                font-family: 'Pacifico', cursive;
+                color: rgb(62, 62, 63);
+                margin-top: 10px;
+                font-size: 22px;
+            }
+
+    
+            #bem-vindo .col-md-6 p{
+    
+                font-family: 'Shantell Sans', cursive;
+                font-size: 14px;
+                color: rgb(105, 104, 108);
+                padding-bottom: 10px;
+            }
+            
+            section img {
+                max-width: 260px;
+                max-height: 260px;
+            }
+            
+    
+            
+            section .nosso-lar{
+                margin-top: 20px;
+            }
+            #bem-vindo{
+                background-color: rgb(204, 176, 213);
+            }
+    
+        .button {
+        display: block;
+        padding: 4px;
+        margin-bottom: 20px;
+        color: #393838;
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 20px;
+        border-radius: 100px;
+        background-color: rgba(36, 185, 180, 0.747);
+        &:hover {
+            background-color: rgba(14, 223, 216, 0.747);
+            color: black;
+        }
+        }
+    
+
+        .ytb-video{
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 6px;
+        }
+        
+    
+
+    
+        #nossa-filosofia{
+            background-color: rgb(227, 208, 233);
+            padding-top: 20px;
+        }
+        
+        #nossa-filosofia iframe {
+            height: 220px;
+            border-radius: 30px;
+        
+        }
+    
+        #nossa-filosofia p{
+            font-family:  sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            color: rgb(29, 29, 29);
+            margin-top: 10px
+        }
+        #nossa-filosofia h1{
+            font-family: 'Alkatra', cursive;
+            font-style: italic;
+            color: rgb(58, 58, 60);
+            background-color: rgba(19, 199, 193, 0);
+            border-radius: 200px;
+            margin-left: 80px;
+            font-size: 18px;
+            text-decoration: underline 1px;
+            margin-right: 80px;
+            
+        }
+
+    #nossa-filosofia .none{
+        display: none;
+    }
+
+    }

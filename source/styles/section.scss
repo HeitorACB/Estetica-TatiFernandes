@@ -1,0 +1,87 @@
+
+ .ytb-video{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 550px;
+    max-height: 550px;
+}
+
+.col-md-6 h2 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(62, 62, 63);
+    text-align: center;
+    font-size: 46px;
+}
+#bem-vindo .col-md-6 p{
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+    
+    color: rgb(105, 104, 108);
+    padding-bottom: 35px;
+}
+
+section img {
+    max-width: 410px;
+    width: 500px;
+    max-height: 400px;
+    height: 500px;
+}
+
+
+
+section .nosso-lar{
+    margin-top: 70px;
+}
+#bem-vindo{
+    background-color: rgb(204, 176, 213);
+}
+
+
+
+#nossa-filosofia{
+    background-color: rgb(227, 208, 233);
+}
+
+#nossa-filosofia iframe {
+    height: 380px;
+    border-radius: 70px;
+
+}
+#nossa-filosofia p{
+    font-family:  sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(29, 29, 29);
+    margin-top: 20px
+}
+#nossa-filosofia h1{
+    font-family: 'Alkatra', cursive;
+    font-style: italic;
+    color: rgb(45, 45, 47);
+    background-color: rgba(27, 213, 207, 0);
+    border-radius: 200px;
+    margin-left: 80px;
+    text-decoration: underline 1px;
+    margin-right: 80px;
+}
+
+#nossa-filosofia{
+    padding-top: 50px;
+}
+#nossa-filosofia .imagens-nossa-filosofia{
+    margin-top: 30px;
+}
+
+#nossa-filosofia .imagens-nossa-filosofia .col-md-3{
+    display: flex;
+    
+}
+#nossa-filosofia .imagens-nossa-filosofia .col-md-3 img {
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-bottom: 1000px;
+}

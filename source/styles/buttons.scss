@@ -1,0 +1,27 @@
+
+
+.button {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #393838;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+  border-radius: 100px;
+  background-color: rgba(36, 185, 180, 0.747);
+  &:hover {
+    background-color: rgba(14, 223, 216, 0.747);
+    color: black;
+  }
+}
+
+section a {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 70px;
+}
