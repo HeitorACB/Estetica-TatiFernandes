@@ -36,8 +36,8 @@ section img {
     background-color: rgb(232, 212, 240);
 }
 .apresentacao-tati .container h5{
-    font-family: 'Shantell Sans', cursive;
-    
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
     padding-top: 30px;
     color: rgb(68, 70, 70);
 }
@@ -50,10 +50,11 @@ color: rgb(47, 182, 182);
     }
 
 .apresentacao-tati .container h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
 }
 .apresentacao-tati .container p{
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Poppins', sans-serif;
     max-width: 900px;
     margin: 0 auto;
     color: rgb(68, 70, 70);
@@ -61,7 +62,7 @@ color: rgb(47, 182, 182);
 .video-apresentacao iframe{
     max-width: 800px;
     width: 800px;
-    max-height: 400px;
+    max-height: 350px;
     height: 400px;
     margin-top: 40px;
     margin-bottom: 100px;
