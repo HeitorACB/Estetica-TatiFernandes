@@ -1,0 +1,1 @@
+const hamburgerBtn=document.getElementById("hamburger-menu"),menu=document.querySelector(".menu--closed");hamburgerBtn.addEventListener("click",function(){menu.classList.toggle("menu--open")});

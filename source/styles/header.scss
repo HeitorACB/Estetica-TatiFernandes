@@ -1,56 +1,91 @@
+
 header img {
-    max-width: 360px;
-    width: 400px;
+    max-width: 320px;
+    width: 320px;
     max-height: 140px;
     height: 140px;
-
 }
-.imagem-header {
+
+header .logo img {
     text-align: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
-    .nav-pills {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+header nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(133, 42, 129, 0.582);
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    & li {
+        margin: 0 5px;
+
         
+            & a{
+                color: black;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 8px 6px;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                transition: all 0.3s ease;
+                font-family: 'Tilt Neon', cursive;
+
+            }
     }
-    header nav {
-        margin-top: 15px;
-    }
-    
-    .nav-pills li {
-        display: inline-block;
-        padding-right: 80px;
-    }
-    
-    .nav-item .nav-link.active{
-        background-color: rgb(17, 216, 210);
-        color: rgb(0, 0, 0);
-        &:hover {
-            background-color: rgb(29, 255, 247) ;
-        }
-    
-    }
-    .nav .nav-item .nav-link{
-        color: rgb(61, 59, 59);
-        font-weight: bold;
-    }
-    
-    .nav-item a {
-        font-size: 18px;
-    }
-    
-    header nav {
-        border-top: 1px solid #53525277;
-        background-color: rgba(185, 124, 180, 0.649);
-    }
+}
 
 
-    header{
-        border-bottom: 1px solid #53525279;
-    }
 
-    header {
-        background: linear-gradient(170deg, rgb(215, 194, 221) 20%, rgb(226, 204, 232) 20%, rgb(221, 196, 227) 35%, rgb(221, 195, 227) 35%, rgb(229, 206, 236) 45%, rgb(229, 209, 235) 45%, rgb(232, 214, 237) 75%, rgb(229, 209, 234)75%), linear-gradient(45deg, rgba(20, 24, 31, 0.8) 0%, rgb(216, 188, 224) 50%, rgb(221, 192, 228) 50%,rgb(224, 193, 233) 100%) rgb(190, 0, 243);
-    }
+.logo {
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+    margin: 0 auto;
+}
+    
+
+.menu ul {
+	display: flex;
+	list-style: none;
+    margin: 0 auto;
+}
+.menu li {
+	margin-left: 20px;
+}
+.menu a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+	transition: background-color 0.3s ease;
+}
+.menu a:hover {
+	background-color: #19a58e;
+    color: white;
+}
+
+#hamburger-menu span {
+	display: block;
+	width: 30px;
+	height: 4px;
+	margin-bottom: 5px;
+	background-color: #333;
+}

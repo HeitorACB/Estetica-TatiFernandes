@@ -1,11 +1,4 @@
-
- .ytb-video{
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    height: 550px;
-    max-height: 550px;
-}
+//primeira section
 
 .col-md-6 h2 {
     font-family: 'Pacifico', cursive;
@@ -15,9 +8,8 @@
 }
 #bem-vindo .col-md-6 p{
     text-align: center;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Shantell Sans', sans-serif;
     font-size: 20px;
-    
     color: rgb(105, 104, 108);
     padding-bottom: 35px;
 }
@@ -29,59 +21,48 @@ section img {
     height: 500px;
 }
 
-
-
-section .nosso-lar{
-    margin-top: 70px;
+#bem-vindo .nosso-lar{
+    padding-top: 50px ;
 }
+
 #bem-vindo{
     background-color: rgb(204, 176, 213);
 }
+// section apresentaçao da Tati
 
-
-
-#nossa-filosofia{
-    background-color: rgb(227, 208, 233);
-}
-
-#nossa-filosofia iframe {
-    height: 380px;
-    border-radius: 70px;
-
-}
-#nossa-filosofia p{
-    font-family:  sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: rgb(29, 29, 29);
-    margin-top: 20px
-}
-#nossa-filosofia h1{
-    font-family: 'Alkatra', cursive;
-    font-style: italic;
-    color: rgb(45, 45, 47);
-    background-color: rgba(27, 213, 207, 0);
-    border-radius: 200px;
-    margin-left: 80px;
-    text-decoration: underline 1px;
-    margin-right: 80px;
-}
-
-#nossa-filosofia{
-    padding-top: 50px;
-}
-#nossa-filosofia .imagens-nossa-filosofia{
-    margin-top: 30px;
-}
-
-#nossa-filosofia .imagens-nossa-filosofia .col-md-3{
-    display: flex;
-    
-}
-#nossa-filosofia .imagens-nossa-filosofia .col-md-3 img {
+.apresentacao-tati .container{
     text-align: center;
-    margin-right: 10px;
-    margin-top: 30px;
-    border-radius: 40px;
-    margin-bottom: 1000px;
+    max-width: 100%;
+    background-color: rgb(232, 212, 240);
+}
+.apresentacao-tati .container h5{
+    font-family: 'Shantell Sans', cursive;
+    
+    padding-top: 30px;
+    color: rgb(68, 70, 70);
+}
+
+.container h1 .color1{
+color: rgb(47, 182, 182);
+}
+.container h1 .color2{
+    color: rgba(133, 42, 128, 0.897);
+    }
+
+.apresentacao-tati .container h1{
+    font-family: 'Pacifico', cursive;
+}
+.apresentacao-tati .container p{
+    font-family: 'Shantell Sans', cursive;
+    max-width: 900px;
+    margin: 0 auto;
+    color: rgb(68, 70, 70);
+}
+.video-apresentacao iframe{
+    max-width: 800px;
+    width: 800px;
+    max-height: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
